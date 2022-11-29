@@ -12,10 +12,10 @@ h1 {
     text-align: justify;
     font-size: 12 px;
     font-family: 'Courier New', Courier, monospace;
-    font-style:normal;
+    font-style:unset;
     color: darkgreen;
 }
-h2 {
+h2, h3 {
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     color: darkgreen;

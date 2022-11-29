@@ -8,15 +8,36 @@
     <link rel="Stylesheet" href="SalarysAdmin.css" type="text/css">
 </head>
 <body>
-    <h1>Salary's Admin</h1>
+   <img src="C:\Users\Usario\Dropbox\Mi PC (DESKTOP-2A64GQS)\Desktop\SalarysAdmin\content\Logo_1.png"> <h1>¡Welcome to Salary's Admin!</h1>
     <p class="parraf_text"> This's a employd's software about the salarys of the works.</p>
     <section>
-        <h2>Forms</h2>
+        <h2>Formulary</h2>
+        <h3>Company data</h3>
         <p class="parraf_text">Please, complete this form for calculate the salary.</p>
         <form>
-            <label for="First name and Last name">
-                <span class="parraf_text">First name an Last name </span>
-                <input type="text" id="first_last_name" placeholder="Here put the first name and last name">
+            <label for="Company name:">
+                <span class="parraf_text">Add the company name or trade name: </span>
+                <input type="text" id="company_name" placeholder="Here, enter the company's name" size="50">
+            </label>
+        </form>
+        <form>
+            <label for="C.U.I.T:">
+                <span class="parraf_text">Add the company's C.U.I.T: </span>
+                <input type="number" id="cuit_company" placeholder="Here, add the C.U.I.T" required>
+            </label>
+        </form>
+        <form>
+            <label for="Street name:">
+                <span class="parraf_text">Add the company street: </span>
+                <input type="text" id="company_street" placeholder="Here, enter the company's street name" size="30">
+            </label>
+            <label for="Street number:">
+                <span class="parraf_text">Add the company street: </span>
+                <input type="number" id="company_street_number" placeholder="Here, enter the company's street number" size="30">
+            </label>
+            <label for="Postal Code:">
+                <span class="parraf_text">Add the company street: </span>
+                <input type="number" id="postal_code" placeholder="Here, enter the company's Postal Code" size="30">
             </label>
         </form>
     </section>
