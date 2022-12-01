@@ -22,6 +22,12 @@
                 <input type="text" id="company_name" placeholder="Enter the company's name" size="40">
             </label>
         </li>
+        <li>
+            <label for="Company heading:">
+                <span class="parraf_text">Add the company heading: </span>
+                <input type="text" id="company_heading" placeholder="Enter the company's heading" size="40">
+            </label>
+        </li>
         <li>    
             <label for="C.U.I.T:">
                 <span class="parraf_text">Add the company's C.U.I.T: </span>
@@ -41,7 +47,7 @@
             </label>
         </li>
         <li>
-            <label for="Postal Code:">
+            <label for="Postal Code">
                 <span class="parraf_text">Add the company Postal Code: </span>
                 <input type="number" id="postal_code" placeholder="Enter the company's Postal Code">
             </label>
@@ -56,7 +62,7 @@
             <label for="so" class="parraf_text">Money: </label>
               <select id="momney" name="money" required>
                 <option value="" selected="selected">- select -</option>
-                <option value="peso">$</option>
+                <option value="peso">$ (pesos)</option>
                 <option value="dollar">U$D</option>
                 <option value="euro">€</option>
                 <option value="libra">£</option>
@@ -67,13 +73,13 @@
         <h3>Employee data</h3>
         <ul>
             <li>
-                <label for="Employee name:">
+                <label for="Employee name">
                     <span class="parraf_text">Add the employee name: </span>
                     <input type="text" id="employee_name" placeholder="Enter the employee's name" size="30">
                 </label>
             </li>
             <li>
-                <label for="Employee last name:">
+                <label for="Employee last name">
                     <span class="parraf_text">Add the employee last name: </span>
                     <input type="text" id="employee_lastname" placeholder="Enter the employee's last name" size="30">
                 </label>
@@ -93,14 +99,30 @@
                 <input type="date" id="date_admission" name="date_admission" value="dd/mm/aaaa">
             </li>
             <li>
+                <label for="Job">
+                    <span class="parraf_text">Add job: </span>
+                    <input type="text" id="job" placeholder="Enter the employee's job" size="30">
+                </label>
+            </li>
+            <li>
                 <label for="Hours worked">
-                    <span class="parraf_text">Add the employee hours worked: </span>
+                    <span class="parraf_text">Add the hours worked: </span>
                     <input type="number" id="hours_worked" placeholder="Add the hours worked">
                 </label>
                 <label for="Salary basic">
-                    <span class="parraf_text">Add the employee's salary basic: </span>
+                    <span class="parraf_text">Add the salary basic: </span>
                     <input type="number" id="salary_basic" placeholder="Add the salary basic">
                 </label>
+            </li>
+            <li>
+              <label for="Overtime worked">
+                <span class="parraf_text">Add the overtime worked: </span>
+                <input type="number" id="salary_basic" placeholder="Add the overtime worked">
+              </label>
+              <label for="Value exras hours">
+                <span class="parraf_text">Add the value extra hours: </span>
+                <input type="number" id="salary_basic" placeholder="Add the value extra hours">
+              </label>
             </li>
         </form>
     </section>
