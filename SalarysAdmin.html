@@ -52,6 +52,17 @@
             <input type="file" name="uploaded_file">
             </label>
         </li>
+        <li>
+            <label for="so" class="parraf_text">Money: </label>
+              <select id="momney" name="money" required>
+                <option value="" selected="selected">- select -</option>
+                <option value="peso">$</option>
+                <option value="dollar">U$D</option>
+                <option value="euro">€</option>
+                <option value="libra">£</option>
+                <option value="bitcoin">₿</option>
+              </select>
+        </li>
         </ul>
         <h3>Employee data</h3>
         <ul>
@@ -59,6 +70,36 @@
                 <label for="Employee name:">
                     <span class="parraf_text">Add the employee name: </span>
                     <input type="text" id="employee_name" placeholder="Here, enter the employee's name" size="30">
+                </label>
+            </li>
+            <li>
+                <label for="Employee last name:">
+                    <span class="parraf_text">Add the employee last name: </span>
+                    <input type="text" id="employee_lastname" placeholder="Here, enter the employee's last name" size="30">
+                </label>
+            </li>
+            <li>
+                <label for="CUIL">
+                    <span class="parraf_text">Add the employee's CUIL: </span>
+                    <input type="number" id="postal_code" placeholder="Here, add the C.U.I.L" size="30">
+                </label>
+            </li>
+            <li>
+                <label for="Birth date" class="parraf_text">Employee birth date: </label>
+                <input type="date" id="birth_date" name="birth_date" value="dd/mm/aaaa">
+            </li>
+            <li>
+                <label for="Birth date" class="parraf_text">Date of admission: </label>
+                <input type="date" id="date_admission" name="date_admission" value="dd/mm/aaaa">
+            </li>
+            <li>
+                <label for="Hours worked">
+                    <span class="parraf_text">Add the employee hours worked: </span>
+                    <input type="number" id="hours_worked" placeholder="Here, add the hours worked" size="30">
+                </label>
+                <label for="Pay">
+                    <span class="parraf_text">Add the employee pay: </span>
+                    <input type="number" id="pay" placeholder="Here, add the employee pay" size="30">
                 </label>
             </li>
         </form>
