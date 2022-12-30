@@ -19,37 +19,49 @@
         <li>
             <label for="company_name">
                 <span class="parraf_text">Add the company name or trade name: </span>
-                <input type="text" id="company_name" placeholder="Enter the company's name" size="40">
+                <input type="text" id="company_name" name="company_name" placeholder="Enter the company's name" size="40">
             </label>
         </li>
         <li>
             <label for="company_heading">
                 <span class="parraf_text">Add the company heading: </span>
-                <input type="text" id="company_heading" placeholder="Enter the company's heading" size="40">
+                <input type="text" id="company_heading" name="company_heading" placeholder="Enter the company's heading" size="40">
             </label>
         </li>
         <li>    
             <label for="cuit_company">
                 <span class="parraf_text">Add the company's C.U.I.T: </span>
-                <input type="number" id="cuit_company" placeholder="Add the C.U.I.T" required>
+                <input type="number" id="cuit_company" name="cuit_company" placeholder="Add the C.U.I.T" required>
             </label>
         </li>
         <li>
-            <label for="company_street">
+            <label for="company_street_name">
                 <span class="parraf_text">Add the company street: </span>
-                <input type="text" id="company_street" placeholder="Enter the company's street name" size="30">
+                <input type="text" id="company_street_name" name="company_street_name" placeholder="Enter the company's street name" size="30">
             </label>
         </li>
         <li>
             <label for="company_street_number">
-                <span class="parraf_text">Add the company street: </span>
-                <input type="number" id="company_street_number" placeholder="Enter the company's street number">
+                <span class="parraf_text">Add the company´s number street: </span>
+                <input type="number" id="company_street_number" name="company_street_number" placeholder="Enter the company's number street">
+            </label>
+        </li>
+        <li>
+            <label for="company_floor">
+                <span class="parraf_text">Add the company's floor: </span>
+                <input type="number" id="company_floor" name="company_floor" placeholder="Enter the company's floor" size="5">
+            </label>
+        </li>
+        <li>
+            <label for="company_department">
+                <span class="parraf_text">Add the company's department: </span>
+                <input type="number" id="company_department" name="company_department" placeholder="Enter the company's department">
             </label>
         </li>
         <li>
             <label for="postal_code">
                 <span class="parraf_text">Add the company Postal Code: </span>
-                <input type="number" id="postal_code" placeholder="Enter the company's Postal Code">
+                <input type="number" id="postal_code" name="postal_code" placeholder="Enter the company's Postal Code">
             </label>
         </li>
         <li>
@@ -75,19 +87,19 @@
             <li>
                 <label for="employee_name">
                     <span class="parraf_text">Add the employee name: </span>
-                    <input type="text" id="employee_name" placeholder="Enter the employee's name" size="30">
+                    <input type="text" id="employee_name" name="employee_name" placeholder="Enter the employee's name" size="30">
                 </label>
             </li>
             <li>
                 <label for="employee_lastname">
                     <span class="parraf_text">Add the employee last name: </span>
-                    <input type="text" id="employee_lastname" placeholder="Enter the employee's last name" size="30">
+                    <input type="text" id="employee_lastname" name="employee_lastname" placeholder="Enter the employee's last name" size="30">
                 </label>
             </li>
             <li>
                 <label for="cuil">
                     <span class="parraf_text">Add the employee's C.U.I.L: </span>
-                    <input type="number" id="cuil" placeholder="Add the C.U.I.L">
+                    <input type="number" id="cuil" name="cuil" placeholder="Add the C.U.I.L">
                 </label>
             </li>
             <li>
@@ -101,57 +113,57 @@
             <li>
                 <label for="job">
                     <span class="parraf_text">Add job: </span>
-                    <input type="text" id="job" placeholder="Enter the employee's job" size="30">
+                    <input type="text" id="job" name="job" placeholder="Enter the employee's job" size="30">
                 </label>
             </li>
             <li>
                 <label for="hours_worked">
                     <span class="parraf_text">Add the hours worked: </span>
-                    <input type="number" id="hours_worked" placeholder="Add the hours worked">
+                    <input type="number" id="hours_worked" name="hours_worked" placeholder="Add the hours worked">
                 </label>
                 <label for="salary_basic">
                     <span class="parraf_text">Add the salary basic: </span>
-                    <input type="number" id="salary_basic" placeholder="Add the salary basic">
+                    <input type="number" id="salary_basic" name="salary_basic" placeholder="Add the salary basic">
                 </label>
             </li>
             <li>
               <label for="salary_overtime">
                 <span class="parraf_text">Add the overtime worked: </span>
-                <input type="number" id="salary_overtime" placeholder="Add the overtime worked">
+                <input type="number" id="salary_overtime" name="salary_overtime" placeholder="Add the overtime worked">
               </label>
               <label for="value_extra_hours">
                 <span class="parraf_text">Add the value extra hours: </span>
-                <input type="number" id="value_extra_hours" placeholder="Add the value extra hours">
+                <input type="number" id="value_extra_hours" name="value_extra_hours" placeholder="Add the value extra hours">
               </label>
             </li>
             <li>
                 <label for="night_hours">
                     <span class="parraf_text">Add the nights hours: </span>
-                    <input type="number" id="night_hours" placeholder="Enter a number of hours of nights worked">
+                    <input type="number" id="night_hours" name="night_hours" placeholder="Enter a number of hours of nights worked">
                 </label>
                 <label for="value_night_hours">
                     <span class="parraf_text">Add the nights hours: </span>
-                    <input type="number" id="value_night_hours" placeholder="Enter the night time value">
+                    <input type="number" id="value_night_hours" name="value_night_hours" placeholder="Enter the night time value">
                 </label>
             </li>
             <li>
             <label for="health_coverage">
                 <span class="parraf_text">Add health coverage: </span>
-                <input type="text" id="health_coverage" placeholder="Enter the employee's health coverage" size="30">
+                <input type="text" id="health_coverage" name="health_coverage" placeholder="Enter the employee's health coverage" size="30">
             </label>
             <label for="value_health_coverage">
                 <span class="parraf_text">Add the value health coverage: </span>
-                <input type="number" id="value_health_coverage" placeholder="Add the value health coverage">
+                <input type="number" id="value_health_coverage" name="value_health_coverage" placeholder="Add the value health coverage">
             </label>
             </li>
             <li>
                 <label for="Social security service">
                     <span class="parraf_text">Add social security service / A.R.T: </span>
-                    <input type="text" id="health_coverage" placeholder="Enter the employee's social security service" size="30">
+                    <input type="text" id="health_coverage" name="health_coverage" placeholder="Enter the employee's social security service" size="30">
                 </label>
                 <label for="value_social_security_service">
                     <span class="parraf_text">Add the value social security service / A.R.T : </span>
-                    <input type="number" id="value_social_security_service" placeholder="Add the value social security service">
+                    <input type="number" id="value_social_security_service" name="value_social_security_service" placeholder="Add the value social security service">
                 </label>
                 </li>
                 <input type="submit" value="Submit"><input type="reset" value="Reset">
