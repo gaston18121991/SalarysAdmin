@@ -29,7 +29,3 @@ button:active {
     border: solid 4px green;
     size: 130%;
 }
-
-input:invalid {
-    border: 2px dashed red;
-  }
