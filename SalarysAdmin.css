@@ -21,7 +21,7 @@ h2, h3 {
     color: darkgreen;
 }
 
-input:focus {
+input:focus, input:hover, select:hover, select:focus {
     border: 4px solid green;
 }
 
